@@ -264,7 +264,7 @@ function Index() {
 
       {/* JOURNAL / POSTERS */}
       <section id="journal" className="relative py-20 md:py-28 bg-primary text-primary-foreground overflow-hidden">
-        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: `url(${posterCollection.url})`, backgroundSize: "cover", backgroundPosition: "center" }} />
+        <div className="absolute inset-0 opacity-[0.04]" style={{ backgroundImage: `url(${posterCollection.url})`, backgroundSize: "cover", backgroundPosition: "center" }} />
         <div className="relative mx-auto max-w-7xl container-px">
           <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
             <div>
