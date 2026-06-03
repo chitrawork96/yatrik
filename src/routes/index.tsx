@@ -26,6 +26,9 @@ import bhutan from "@/assets/trek-bhutan.jpg";
 import ladakh from "@/assets/trek-ladakh.jpg";
 import kedarnath from "@/assets/trek-kedarnath.jpg";
 import kashmir from "@/assets/trek-kashmir.jpg";
+import posterCollection from "@/assets/yatrik-poster-collection.png.asset.json";
+import posterEverest from "@/assets/yatrik-everest-poster.png.asset.json";
+import posterAnnapurna from "@/assets/yatrik-annapurna-poster.png.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -255,6 +258,56 @@ function Index() {
                 </div>
               </article>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* JOURNAL / POSTERS */}
+      <section id="journal" className="relative py-20 md:py-28 bg-primary text-primary-foreground overflow-hidden">
+        <div className="absolute inset-0 opacity-10" style={{ backgroundImage: `url(${posterCollection.url})`, backgroundSize: "cover", backgroundPosition: "center" }} />
+        <div className="relative mx-auto max-w-7xl container-px">
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.2em] text-secondary mb-3">From The Yatrik Journal</p>
+              <h2 className="text-4xl md:text-5xl font-extrabold">Postcards from the Trail</h2>
+            </div>
+            <p className="max-w-md text-primary-foreground/80">
+              Real journeys, real moments. A peek into what awaits when you walk with Yatrik.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a href="#contact" className="group relative overflow-hidden rounded-2xl ring-1 ring-white/10 shadow-[var(--shadow-card)] block">
+              <img src={posterEverest.url} alt="Everest Base Camp — 12 days, 5,364m, ex Kathmandu" loading="lazy" className="w-full h-auto object-cover transition duration-700 group-hover:scale-105" />
+              <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                <p className="text-xs uppercase tracking-wider text-secondary font-bold">Nepal · 12 Days</p>
+                <p className="text-white font-extrabold">Everest Base Camp</p>
+              </div>
+            </a>
+            <a href="#contact" className="group relative overflow-hidden rounded-2xl ring-1 ring-white/10 shadow-[var(--shadow-card)] block">
+              <img src={posterAnnapurna.url} alt="Annapurna Base Camp — 10 days, 4,130m, ex Pokhara" loading="lazy" className="w-full h-auto object-cover transition duration-700 group-hover:scale-105" />
+              <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                <p className="text-xs uppercase tracking-wider text-secondary font-bold">Nepal · 10 Days</p>
+                <p className="text-white font-extrabold">Annapurna Base Camp</p>
+              </div>
+            </a>
+            <a href="#contact" className="group relative overflow-hidden rounded-2xl ring-1 ring-white/10 shadow-[var(--shadow-card)] block">
+              <img src={posterCollection.url} alt="Yatrik trek collection — Everest, Annapurna, Bhutan & Spiti" loading="lazy" className="w-full h-auto object-cover transition duration-700 group-hover:scale-105" />
+              <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/80 to-transparent">
+                <p className="text-xs uppercase tracking-wider text-secondary font-bold">The Collection</p>
+                <p className="text-white font-extrabold">All Yatrik Adventures</p>
+              </div>
+            </a>
+          </div>
+
+          <div className="mt-12 text-center">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 rounded-full px-7 py-4 font-bold uppercase tracking-wide text-secondary-foreground shadow-[var(--shadow-cta)]"
+              style={{ backgroundImage: "var(--gradient-cta)" }}
+            >
+              Book Your Adventure <ArrowRight className="size-4" />
+            </a>
           </div>
         </div>
       </section>
