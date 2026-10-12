@@ -1,20 +1,23 @@
-# Trek India Trails
+# Yatrik: Travel & Trek Brand Concept
 
-I HAVE UPLOADED ASSESTS SO I WANT YOU TO MAKE A TRAVEL TREK LANDING PAGE AS PER UNDERSTANDING OF THE UPLOADED ASSTESTS FULLY WORKABLE AND KEEPING THE LOGO AS UPLOADED AND YOU CAN ADD NOT MUCH SINCE ITS HOME GROWN LOCAL YET BUIDLING UP AND TRYING TO MAKE PLACE IN INDIA AND NEARBY AREA TREKKING AND BOOKING AND SENDING EMAIL QUERIES.
+**Self-initiated · AI-assisted brand experiment**
 
-This project was built with [Lovable](https://lovable.dev).
+Yatrik ("Travel · Trek · Discover") is a concept travel brand for curated Himalayan treks across India, built from scratch with AI-assisted tools. It's a concept, not a real company.
 
-**Live app**: https://yatrik.lovable.app
+🔗 **Live concept site:** [yatrik.lovable.app](https://yatrik.lovable.app)
 
-## Build with Lovable
+## What I built
+- Brand positioning and tone of voice: "Explore Beyond Boundaries"
+- Brand identity and guidelines
+- Conceptual trek offers and destination campaigns
+- Website copy and page structure
+- A mobile-friendly landing page built with Lovable
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/12dcf24c-4a5b-461d-976d-bf3348094916).
+## Built with
+Lovable · TypeScript · ChatGPT · Claude
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
+---
+Part of my portfolio: [chitramarketingportfolio.netlify.app](https://chitramarketingportfolio.netlify.app)
 
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
